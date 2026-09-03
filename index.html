@@ -90,13 +90,20 @@
         margin-top: 20px;
     }
 
+    /* START and NEXT buttons */
     #startButton,
-    #nextButton,
-    #restartButton {
+    #nextButton {
         position: absolute;
         top: 10px;
         left: 10px;
-        margen-top: 0;
+        margin-top: 0;
+        font-size: 20px;
+        padding: 14px 25px;
+    }
+
+    /* PLAY AGAIN button */
+    #restartButton {
+        margin-top: 20px;
         font-size: 20px;
         padding: 14px 25px;
     }
@@ -256,7 +263,6 @@ function showQuestion() {
     answer0.disabled = false;
     answer1.disabled = false;
 
-    // Hide answers for the first 3 seconds.
     answers.style.display = "none";
 
     timer.textContent = "3";
@@ -275,7 +281,6 @@ function updateTimer() {
 
     const elapsed = performance.now() - startTime;
 
-    // First 3 seconds: answers hidden.
     if (elapsed < 3000) {
 
         const remaining = Math.ceil((3000 - elapsed) / 1000);
@@ -286,7 +291,6 @@ function updateTimer() {
         return;
     }
 
-    // At exactly 3 seconds answers appear.
     if (elapsed < 10000) {
 
         answers.style.display = "flex";
@@ -299,7 +303,6 @@ function updateTimer() {
         return;
     }
 
-    // Ten seconds total.
     finishQuestion();
 }
 
@@ -309,13 +312,11 @@ function chooseAnswer(index) {
 
     const elapsed = performance.now() - startTime;
 
-    // Pressing during the first 3 seconds is wrong.
     if (elapsed < 3000) {
         finishQuestion(true);
         return;
     }
 
-    // Player can change their answer.
     selectedAnswer = index;
 
     answer0.classList.remove("selected");
@@ -346,6 +347,7 @@ function finishQuestion(earlyWrong = false) {
 
         score++;
         result.textContent = "CORRECT!";
+
     } else {
 
         result.textContent = "WRONG!";
@@ -387,12 +389,14 @@ function nextQuestion() {
 function endGame() {
 
     questionNumber.textContent = "Challenge Complete!";
+
     question.textContent =
         "Final Score: " + score + " / " + questions.length;
 
     timer.textContent = "";
 
     answers.style.display = "none";
+
     result.textContent = "";
 
     restartButton.style.display = "inline-block";
@@ -415,4 +419,4 @@ restartButton.addEventListener("click", startGame);
 </script>
 
 </body>
-</html>
+</html> 
