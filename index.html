@@ -90,24 +90,20 @@
         margin-top: 20px;
     }
 
-    /* START and NEXT buttons */
+    /* All three control buttons use the EXACT same position */
     #startButton,
-    #nextButton {
+    #nextButton,
+    #restartButton {
         position: absolute;
         top: 10px;
         left: 10px;
-        margin-top: 0;
+        margin: 0;
         font-size: 20px;
         padding: 14px 25px;
+        z-index: 1000;
     }
 
-    /* PLAY AGAIN button */
-    #restartButton {
-        margin-top: 20px;
-        font-size: 20px;
-        padding: 14px 25px;
-    }
-
+    /* Only one control button is visible at a time */
     #nextButton,
     #restartButton {
         display: none;
@@ -284,6 +280,7 @@ function updateTimer() {
     if (elapsed < 3000) {
 
         const remaining = Math.ceil((3000 - elapsed) / 1000);
+
         timer.textContent = remaining;
 
         answers.style.display = "none";
@@ -313,7 +310,9 @@ function chooseAnswer(index) {
     const elapsed = performance.now() - startTime;
 
     if (elapsed < 3000) {
+
         finishQuestion(true);
+
         return;
     }
 
@@ -323,9 +322,13 @@ function chooseAnswer(index) {
     answer1.classList.remove("selected");
 
     if (index === 0) {
+
         answer0.classList.add("selected");
+
     } else {
+
         answer1.classList.add("selected");
+
     }
 }
 
@@ -346,6 +349,7 @@ function finishQuestion(earlyWrong = false) {
         selectedAnswer === correctAnswer) {
 
         score++;
+
         result.textContent = "CORRECT!";
 
     } else {
@@ -356,9 +360,13 @@ function finishQuestion(earlyWrong = false) {
         answer1.classList.remove("selected");
 
         if (correctAnswer === 0) {
+
             answer0.classList.add("selected");
+
         } else {
+
             answer1.classList.add("selected");
+
         }
     }
 
@@ -380,9 +388,13 @@ function nextQuestion() {
     currentQuestion++;
 
     if (currentQuestion >= questions.length) {
+
         endGame();
+
     } else {
+
         showQuestion();
+
     }
 }
 
@@ -419,4 +431,4 @@ restartButton.addEventListener("click", startGame);
 </script>
 
 </body>
-</html> 
+</html>
