@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -90,7 +91,7 @@
         margin-top: 20px;
     }
 
-    /* All three control buttons use the exact same position */
+    /* START, NEXT and PLAY AGAIN all use exactly the same position */
     #startButton,
     #nextButton,
     #restartButton {
@@ -100,10 +101,11 @@
         margin: 0;
         font-size: 20px;
         padding: 14px 25px;
+        min-width: auto;
         z-index: 1000;
     }
 
-    /* Only one control button visible at a time */
+    /* Only one control button is visible at a time */
     #nextButton,
     #restartButton {
         display: none;
@@ -423,4 +425,5 @@ restartButton.addEventListener("click", startGame);
 </script>
 
 </body>
-</html>00
+</html>
+```
