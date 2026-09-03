@@ -90,24 +90,20 @@
         margin-top: 20px;
     }
 
-    /*
-       START, NEXT and PLAY AGAIN
-       all use the exact same position.
-       They are placed below the header.
-    */
+    /* All three control buttons use the exact same position */
     #startButton,
     #nextButton,
     #restartButton {
         position: absolute;
         top: 70px;
-        left: 10px;
+        left: 0;
         margin: 0;
         font-size: 20px;
         padding: 14px 25px;
         z-index: 1000;
     }
 
-    /* Only one control button is visible at a time */
+    /* Only one control button visible at a time */
     #nextButton,
     #restartButton {
         display: none;
@@ -427,4 +423,4 @@ restartButton.addEventListener("click", startGame);
 </script>
 
 </body>
-</html>
+</html>00
