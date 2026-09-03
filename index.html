@@ -90,12 +90,16 @@
         margin-top: 20px;
     }
 
-    /* All three control buttons use the EXACT same position */
+    /*
+       START, NEXT and PLAY AGAIN
+       all use the exact same position.
+       They are placed below the header.
+    */
     #startButton,
     #nextButton,
     #restartButton {
         position: absolute;
-        top: 10px;
+        top: 70px;
         left: 10px;
         margin: 0;
         font-size: 20px;
@@ -322,13 +326,9 @@ function chooseAnswer(index) {
     answer1.classList.remove("selected");
 
     if (index === 0) {
-
         answer0.classList.add("selected");
-
     } else {
-
         answer1.classList.add("selected");
-
     }
 }
 
@@ -360,13 +360,9 @@ function finishQuestion(earlyWrong = false) {
         answer1.classList.remove("selected");
 
         if (correctAnswer === 0) {
-
             answer0.classList.add("selected");
-
         } else {
-
             answer1.classList.add("selected");
-
         }
     }
 
