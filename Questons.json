@@ -1,0 +1,19 @@
+{
+  "title": "MarkOfChaos X/O Challenge Question Bank",
+  "version": 2,
+  "questionsPerGame": 10,
+  "questions": [
+    {
+      "question": "Who is second-in-command?",
+      "answers": [
+        "Knight",
+        "Rogue"
+      ],
+      "correct": 0,
+      "correctAnswer": "Knight",
+      "correctReason": "The Knight is the second-in-command.",
+      "wrongReason": "The Knight is the second-in-command, not the Rogue.",
+      "difficulty": 15
+    }
+  ]
+}
