@@ -17,12 +17,12 @@
     {
       "question": "Who is the Party Leader?",
       "answers": [
-        "The person assigned as Party Leader before entering the dungeon",
-        "The most experienced person"
+        "The most experienced person",
+        "The person assigned as Party Leader before entering the dungeon"
       ],
-      "correct": 0,
-      "correctExplanation": "The Party Leader is assigned before entering the dungeon.",
+      "correct": 1,
       "wrongExplanation": "The Party Leader is assigned before entering the dungeon. It is not automatically the most experienced player.",
+      "correctExplanation": "The Party Leader is assigned before entering the dungeon.",
       "difficulty": 5
     },
     {
