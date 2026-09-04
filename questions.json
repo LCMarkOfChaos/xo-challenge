@@ -1,557 +1,703 @@
-{
-  "title": "MarkOfChaos X/O Challenge Question Bank",
-  "version": 2,
-  "questionsPerGame": 10,
-  "questions": [
-    {
-      "question": "How many adventurers are in the normal party?",
-      "answers": [
-        "6",
-        "5"
-      ],
-      "correct": 0,
-      "correctExplanation": "The normal MarkOfChaos adventuring party has 6 adventurers.",
-      "wrongExplanation": "The normal party has 6 adventurers.",
-      "difficulty": 5
-    },
-    {
-      "question": "Who is the Party Leader?",
-      "answers": [
-        "The most experienced person",
-        "The person assigned as Party Leader before entering the dungeon"
-      ],
-      "correct": 1,
-      "wrongExplanation": "The Party Leader is assigned before entering the dungeon. It is not automatically the most experienced player.",
-      "correctExplanation": "The Party Leader is assigned before entering the dungeon.",
-      "difficulty": 5
-    },
-    {
-      "question": "Who is second-in-command?",
-      "answers": [
-        "Knight",
-        "Rogue"
-      ],
-      "correct": 0,
-      "correctExplanation": "The Knight is the second-in-command.",
-      "wrongExplanation": "The Knight is the second-in-command, not the Rogue.",
-      "difficulty": 5
-    },
-    {
-      "question": "Who normally fills the Scout role?",
-      "answers": [
-        "Rogue",
-        "Mage"
-      ],
-      "correct": 0,
-      "correctExplanation": "The Rogue normally fills the Scout role.",
-      "wrongExplanation": "The Rogue normally fills the Scout role.",
-      "difficulty": 5
-    },
-    {
-      "question": "Who monitors the party's health bars?",
-      "answers": [
-        "Healer",
-        "Party Leader"
-      ],
-      "correct": 0,
-      "correctExplanation": "The Healer watches the party's health bars.",
-      "wrongExplanation": "The Healer monitors the party's health bars.",
-      "difficulty": 1
-    },
-    {
-      "question": "Who should monitor the party's MP?",
-      "answers": [
-        "Mage",
-        "Yourself"
-      ],
-      "correct": 0,
-      "correctExplanation": "The Mage monitors the party's MP.",
-      "wrongExplanation": "The Mage is responsible for monitoring the party's MP.",
-      "difficulty": 2
-    },
-    {
-      "question": "Who does the most damage?",
-      "answers": [
-        "The person in the Rear Guard who draws the monster back",
-        "Mage"
-      ],
-      "correct": 0,
-      "correctExplanation": "The Rear Guard member draws the monster all the way back so the party can attack it safely.",
-      "wrongExplanation": "The Rear Guard member draws the monster back so the rest of the party can attack it safely.",
-      "difficulty": 5
-    },
-    {
-      "question": "Who is the Dark Magic Specialist?",
-      "answers": [
-        "Sorcerer",
-        "Mage"
-      ],
-      "correct": 0,
-      "correctExplanation": "The Sorcerer is the Dark Magic Specialist.",
-      "wrongExplanation": "The Sorcerer is the Dark Magic Specialist.",
-      "difficulty": 6
-    },
-    {
-      "question": "Who controls movement out of combat?",
-      "answers": [
-        "Scout position",
-        "Center position"
-      ],
-      "correct": 0,
-      "correctExplanation": "The Scout position controls movement when the party is out of combat.",
-      "wrongExplanation": "The Scout position controls movement out of combat.",
-      "difficulty": 8
-    },
-    {
-      "question": "Who controls movement during combat?",
-      "answers": [
-        "Center position",
-        "Scout position"
-      ],
-      "correct": 0,
-      "correctExplanation": "The Center position controls movement during combat.",
-      "wrongExplanation": "During combat, the Center position controls movement.",
-      "difficulty": 8
-    },
-    {
-      "question": "Can any party member be in the Center?",
-      "answers": [
-        "Yes",
-        "No, only the Titan"
-      ],
-      "correct": 0,
-      "correctExplanation": "The Center is a position, not a fixed class. Any party member can be in the Center.",
-      "wrongExplanation": "The Center is a position, not a fixed class. Any party member can fill it.",
-      "difficulty": 2
-    },
-    {
-      "question": "Should the party stay together in a dungeon?",
-      "answers": [
-        "Yes",
-        "No, everyone explores alone"
-      ],
-      "correct": 0,
-      "correctExplanation": "The party stays together so members can protect and support each other.",
-      "wrongExplanation": "The party should stay together rather than exploring alone.",
-      "difficulty": 1
-    },
-    {
-      "question": "Should one player rush ahead alone?",
-      "answers": [
-        "No",
-        "Yes"
-      ],
-      "correct": 0,
-      "correctExplanation": "Players should not rush ahead alone because it can separate them from the party.",
-      "wrongExplanation": "Players should not rush ahead alone.",
-      "difficulty": 1
-    },
-    {
-      "question": "What should you do if you become separated?",
-      "answers": [
-        "Stop and regroup",
-        "Keep going they will catch up"
-      ],
-      "correct": 0,
-      "correctExplanation": "Stop and regroup with the party.",
-      "wrongExplanation": "You should stop and regroup instead of continuing alone.",
-      "difficulty": 3
-    },
-    {
-      "question": "Who watches for danger ahead?",
-      "answers": [
-        "Scout",
-        "Healer"
-      ],
-      "correct": 0,
-      "correctExplanation": "The Scout watches ahead for danger.",
-      "wrongExplanation": "The Scout is responsible for watching ahead for danger.",
-      "difficulty": 1
-    },
-    {
-      "question": "What should the Scout do before moving the party forward?",
-      "answers": [
-        "Check for danger",
-        "Attack immediately"
-      ],
-      "correct": 0,
-      "correctExplanation": "The Scout checks for danger before moving the party forward.",
-      "wrongExplanation": "The Scout should check for danger before moving the party forward.",
-      "difficulty": 3
-    },
-    {
-      "question": "What do you do when the person you are watching gets attacked?",
-      "answers": [
-        "Protect them",
-        "Finish your monster first"
-      ],
-      "correct": 0,
-      "correctExplanation": "You protect the person you are watching. The person watching you will take your target.",
-      "wrongExplanation": "You should protect the person you are watching instead of finishing your own monster.",
-      "difficulty": 9
-    },
-    {
-      "question": "What do you do when the Vanguard member gets attacked?",
-      "answers": [
-        "Protect them and attack their attacker",
-        "Keep fighting your own target"
-      ],
-      "correct": 0,
-      "correctExplanation": "Protect the Vanguard member and attack the enemy attacking them.",
-      "wrongExplanation": "When the Vanguard is attacked, protect them and attack their attacker.",
-      "difficulty": 4
-    },
-    {
-      "question": "Should you watch the person assigned to you?",
-      "answers": [
-        "Yes",
-        "Only when they are dying"
-      ],
-      "correct": 0,
-      "correctExplanation": "You should always watch the party member assigned to you.",
-      "wrongExplanation": "You should watch your assigned party member at all times, not only when they are dying.",
-      "difficulty": 1
-    },
-    {
-      "question": "Why do party members watch each other?",
-      "answers": [
-        "To protect each other",
-        "To compete for kills"
-      ],
-      "correct": 0,
-      "correctExplanation": "Party members watch each other so they can protect one another.",
-      "wrongExplanation": "The purpose is to protect each other, not to compete for kills.",
-      "difficulty": 7
-    },
-    {
-      "question": "What should you do if your assigned person is in danger?",
-      "answers": [
-        "Assist them",
-        "Your like comes first"
-      ],
-      "correct": 0,
-      "correctExplanation": "Assist the party member you are responsible for watching.",
-      "wrongExplanation": "You should assist your assigned party member when they are in danger.",
-      "difficulty": 8
-    },
-    {
-      "question": "When is concentrated fire performed?",
-      "answers": [
-        "When fighting in pairs",
-        "When fighting in a group"
-      ],
-      "correct": 0,
-      "correctExplanation": "Concentrated fire is used when fighting in pairs.",
-      "wrongExplanation": "Concentrated fire is performed when party members are fighting in pairs.",
-      "difficulty": 7
-    },
-    {
-      "question": "When fighting in pairs, who should you attack?",
-      "answers": [
-        "The same target as your partner",
-        "A different target"
-      ],
-      "correct": 0,
-      "correctExplanation": "Both partners attack the same target.",
-      "wrongExplanation": "Partners should attack the same target.",
-      "difficulty": 9
-    },
-    {
-      "question": "Why use concentrated fire?",
-      "answers": [
-        "To defeat targets faster",
-        "So everyone get EXP"
-      ],
-      "correct": 0,
-      "correctExplanation": "Concentrated fire defeats targets faster by combining damage.",
-      "wrongExplanation": "The purpose is to combine damage and defeat targets faster.",
-      "difficulty": 9
-    },
-    {
-      "question": "Should paired players attack separate targets?",
-      "answers": [
-        "No",
-        "Yes"
-      ],
-      "correct": 0,
-      "correctExplanation": "Yes if no one is being attacked.",
-      "wrongExplanation": "Paired players should concentrate their attacks on the same target.",
-      "difficulty": 7
-    },
-    {
-      "question": "What happens when everyone concentrates on one target?",
-      "answers": [
-        "The target goes down faster",
-        "You get less EXP"
-      ],
-      "correct": 0,
-      "correctExplanation": "Concentrating attacks causes the target to go down faster.",
-      "wrongExplanation": "Concentrated fire makes the target go down faster.",
-      "difficulty": 9
-    },
-    {
-      "question": "Combat, Healer can decide to call the Wagon Wheel formation?",
-      "answers": [
-        "When someones health is low",
-        "Any time, it is there write"
-      ],
-      "correct": 0,
-      "correctExplanation": "The Healer can if they need to stop and heal.",
-      "wrongExplanation": "The Healer decides only when there is a need",
-      "difficulty": 7
-    },
-    {
-      "question": "What is the Wagon Wheel formation used for?",
-      "answers": [
-        "Protecting the party from attacks",
-        "When moving down coradors"
-      ],
-      "correct": 0,
-      "correctExplanation": "The Wagon Wheel creates a protective formation around the party.",
-      "wrongExplanation": "The Wagon Wheel is used to protect the party from attacks.",
-      "difficulty": 3
-    },
-    {
-      "question": "In a Wagon Wheel, should party members watch their assigned person?",
-      "answers": [
-        "Yes",
-        "No"
-      ],
-      "correct": 0,
-      "correctExplanation": "Each party member watches their assigned person.",
-      "wrongExplanation": "Party members must watch their assigned person.",
-      "difficulty": 1
-    },
-    {
-      "question": "What does the Wagon Wheel create around the party?",
-      "answers": [
-        "A protective circle",
-        "A firing line"
-      ],
-      "correct": 0,
-      "correctExplanation": "The Wagon Wheel creates a protective circle around the party.",
-      "wrongExplanation": "The formation creates a protective circle, not a straight line.",
-      "difficulty": 4
-    },
-    {
-      "question": "Should everyone in the Wagon Wheel watch for attacks?",
-      "answers": [
-        "Yes",
-        "No"
-      ],
-      "correct": 1,
-      "correctExplanation": "Healer and scout have different jobs",
-      "wrongExplanation": "Everyone participates in watching for attacks, not only the Titan.",
-      "difficulty": 5
-    },
-    {
-      "question": "Who can decide to retreat when someone goes down?",
-      "answers": [
-        "Healer",
-        "Party Leader"
-      ],
-      "correct": 0,
-      "correctExplanation": "The Healer decides whether to resurrect or retreat.",
-      "wrongExplanation": "The Healer makes the decision to resurrect or retreat.",
-      "difficulty": 4
-    },
-    {
-      "question": "What does the Healer decide when someone is down?",
-      "answers": [
-        "Resurrect or retreat to save the party",
-        "Keep everyone fighting"
-      ],
-      "correct": 0,
-      "correctExplanation": "The Healer decides whether to resurrect the fallen member or retreat to save the party.",
-      "wrongExplanation": "The Healer decides between resurrection and retreat to protect the remaining party.",
-      "difficulty": 7
-    },
-    {
-      "question": "If retreat is called, what do you do?",
-      "answers": [
-        "Form the retreat formation and pull back together",
-        "Keep fighting until you are in the rear"
-      ],
-      "correct": 0,
-      "correctExplanation": "Everyone forms the retreat formation and pulls back together.",
-      "wrongExplanation": "When retreat is called, form the retreat formation and pull back together.",
-      "difficulty": 5
-    },
-    {
-      "question": "Should you stay and fight alone after retreat is called?",
-      "answers": [
-        "No",
-        "Yes"
-      ],
-      "correct": 0,
-      "correctExplanation": "Once retreat is called, everyone pulls back together.",
-      "wrongExplanation": "You should not stay and fight alone after retreat is called.",
-      "difficulty": 5
-    },
-    {
-      "question": "Why might the Healer call a retreat?",
-      "answers": [
-        "To save the remaining party",
-        "To get more kills"
-      ],
-      "correct": 0,
-      "correctExplanation": "The Healer may call a retreat to save the remaining party.",
-      "wrongExplanation": "A retreat is called to save the remaining party, not to get more kills.",
-      "difficulty": 5
-    },
-    {
-      "question": "If a party member is down, should everyone keep fighting?",
-      "answers": [
-        "No, the Healer decides whether to resurrect or retreat",
-        "Yes, always"
-      ],
-      "correct": 0,
-      "correctExplanation": "The Healer decides whether to resurrect the fallen member or retreat.",
-      "wrongExplanation": "The party should follow the Healer's decision to resurrect or retreat.",
-      "difficulty": 5
-    },
-    {
-      "question": "When retreating, should the party stay together?",
-      "answers": [
-        "Yes",
-        "No, everyone runs separately"
-      ],
-      "correct": 0,
-      "correctExplanation": "The party retreats together as a group.",
-      "wrongExplanation": "Everyone should retreat together rather than running separately.",
-      "difficulty": 5
-    },
-    {
-      "question": "Should you pull extra mobs toward the party?",
-      "answers": [
-        "No",
-        "Yes"
-      ],
-      "correct": 0,
-      "correctExplanation": "Do not pull extra mobs toward the party.",
-      "wrongExplanation": "Pulling extra mobs toward the party creates unnecessary danger.",
-      "difficulty": 4
-    },
-    {
-      "question": "Should you attack a new target without reason?",
-      "answers": [
-        "No",
-        "Yes"
-      ],
-      "correct": 0,
-      "correctExplanation": "Stay with the party's target unless there is a reason to change.",
-      "wrongExplanation": "Do not attack a new target without a reason.",
-      "difficulty": 4
-    },
-    {
-      "question": "What should you do when the party changes targets?",
-      "answers": [
-        "Follow the concentrated fire",
-        "Keep attacking your old target"
-      ],
-      "correct": 0,
-      "correctExplanation": "Follow the party's concentrated fire onto the new target.",
-      "wrongExplanation": "You should follow the party's concentrated fire rather than continuing on the old target.",
-      "difficulty": 5
-    },
-    {
-      "question": "Should you leave the formation to chase a mob?",
-      "answers": [
-        "No",
-        "Yes"
-      ],
-      "correct": 0,
-      "correctExplanation": "Stay in formation and do not chase mobs away from the party.",
-      "wrongExplanation": "Do not leave the formation to chase a mob.",
-      "difficulty": 5
-    },
-    {
-      "question": "What should you do if you see danger?",
-      "answers": [
-        "Warn the party",
-        "Say nothing"
-      ],
-      "correct": 0,
-      "correctExplanation": "Warn the party so everyone knows about the danger.",
-      "wrongExplanation": "You should warn the party when you see danger.",
-      "difficulty": 3
-    },
-    {
-      "question": "Should party members communicate when danger appears?",
-      "answers": [
-        "Yes",
-        "No"
-      ],
-      "correct": 0,
-      "correctExplanation": "Communication helps the party react to danger together.",
-      "wrongExplanation": "Party members should communicate when danger appears.",
-      "difficulty": 3
-    },
-    {
-      "question": "Should you run ahead of the Scout?",
-      "answers": [
-        "No",
-        "Yes"
-      ],
-      "correct": 0,
-      "correctExplanation": "The Scout checks ahead for danger, so you should not run ahead.",
-      "wrongExplanation": "Do not run ahead of the Scout.",
-      "difficulty": 4
-    },
-    {
-      "question": "Should everyone attack the same target when concentrated fire is called?",
-      "answers": [
-        "Yes",
-        "No"
-      ],
-      "correct": 0,
-      "correctExplanation": "Everyone should concentrate on the same target.",
-      "wrongExplanation": "When concentrated fire is called, everyone attacks the same target.",
-      "difficulty": 4
-    },
-    {
-      "question": "What should you do if your target dies?",
-      "answers": [
-        "Assist the party's next target",
-        "Run off looking for another enemy"
-      ],
-      "correct": 0,
-      "correctExplanation": "Assist the party by moving to its next target.",
-      "wrongExplanation": "Do not run off looking for another enemy. Assist the party's next target.",
-      "difficulty": 5
-    },
-    {
-      "question": "Should you chase an enemy away from the party?",
-      "answers": [
-        "No",
-        "Yes"
-      ],
-      "correct": 0,
-      "correctExplanation": "Stay with the party and do not chase enemies away.",
-      "wrongExplanation": "Do not chase an enemy away from the party.",
-      "difficulty": 4
-    },
-    {
-      "question": "What is more important than getting the killing blow?",
-      "answers": [
-        "Keeping the party safe",
-        "Getting the most kills"
-      ],
-      "correct": 0,
-      "correctExplanation": "Keeping the party safe is more important than getting the killing blow.",
-      "wrongExplanation": "Keeping the party safe is more important than getting the most kills.",
-      "difficulty": 5
-    },
-    {
-      "question": "Should you protect your assigned party member?",
-      "answers": [
-        "Yes",
-        "Only if they ask"
-      ],
-      "correct": 0,
-      "correctExplanation": "Protecting your assigned party member is one of the core party rules.",
-      "wrongExplanation": "You should protect your assigned party member without waiting for them to ask.",
-      "difficulty": 3
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>MarkOfChaos X/O Challenge</title>
+
+<style>
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        color: white;
     }
-  ]
+
+    body {
+        background-image: url("image/background.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        text-shadow: 2px 2px 4px #000;
+    }
+
+    #game {
+        width: 100%;
+        min-height: 100vh;
+        position: relative;
+        padding-top: 30px;
+        box-sizing: border-box;
+    }
+
+    h1 {
+        margin: 10px 0 25px 0;
+        font-size: 42px;
+        color: white;
+    }
+
+    #question {
+        font-size: 28px;
+        font-weight: bold;
+        margin: 30px auto;
+        max-width: 900px;
+        color: white;
+    }
+
+    #status {
+        font-size: 24px;
+        font-weight: bold;
+        margin: 20px auto;
+        min-height: 35px;
+        color: white;
+    }
+
+    #answers {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+        margin: 30px auto;
+        max-width: 1000px;
+    }
+
+    .answer-button {
+        width: 400px;
+        min-height: 80px;
+        padding: 15px;
+        font-size: 24px;
+        font-weight: bold;
+        border: 3px solid white;
+        border-radius: 12px;
+        background: rgba(0, 0, 0, 0.75);
+        color: white;
+        cursor: pointer;
+        text-shadow: 2px 2px 3px #000;
+    }
+
+    .answer-button:hover {
+        background: rgba(60, 60, 60, 0.9);
+    }
+
+    .answer-button:disabled {
+        cursor: default;
+    }
+
+    #startButton,
+    #nextButton,
+    #restartButton {
+        font-size: 20px;
+        font-weight: bold;
+        padding: 14px 25px;
+        border: 2px solid white;
+        border-radius: 10px;
+        background: rgba(0, 0, 0, 0.8);
+        color: white;
+        cursor: pointer;
+        text-shadow: 2px 2px 3px #000;
+    }
+
+    #startButton {
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        z-index: 1000;
+    }
+
+    #nextButton,
+    #restartButton {
+        margin-top: 20px;
+    }
+
+    #startButton:hover,
+    #nextButton:hover,
+    #restartButton:hover {
+        background: rgba(60, 60, 60, 0.95);
+    }
+
+    #explanation {
+        font-size: 21px;
+        font-weight: bold;
+        max-width: 850px;
+        margin: 25px auto;
+        padding: 15px;
+        color: white;
+    }
+
+    #score {
+        font-size: 24px;
+        font-weight: bold;
+        margin: 20px;
+        color: white;
+    }
+
+    #progress {
+        font-size: 20px;
+        margin: 10px;
+        color: white;
+    }
+
+    #version {
+        position: fixed;
+        bottom: 5px;
+        left: 10px;
+        font-size: 14px;
+        color: white;
+        text-shadow: 2px 2px 4px #000;
+        z-index: 1000;
+    }
+
+    .hidden {
+        display: none !important;
+    }
+
+    @media (max-width: 700px) {
+        h1 {
+            font-size: 32px;
+        }
+
+        #question {
+            font-size: 23px;
+            padding: 0 15px;
+        }
+
+        .answer-button {
+            width: 85%;
+            font-size: 20px;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<div id="game">
+
+    <h1>X/O Challenge</h1>
+
+    <button id="startButton">START</button>
+
+    <div id="progress"></div>
+
+    <div id="question">Press START to begin.</div>
+
+    <div id="status"></div>
+
+    <div id="answers" class="hidden">
+        <button class="answer-button" id="answer0"></button>
+        <button class="answer-button" id="answer1"></button>
+    </div>
+
+    <div id="explanation"></div>
+
+    <button id="nextButton" class="hidden">NEXT</button>
+
+    <div id="score"></div>
+
+    <button id="restartButton" class="hidden">PLAY AGAIN</button>
+
+</div>
+
+<footer id="version">Version 1.1</footer>
+
+<script>
+
+let allQuestions = [];
+let gameQuestions = [];
+
+let currentQuestion = null;
+let currentQuestionIndex = 0;
+let score = 0;
+
+const questionsPerGame = 10;
+
+let currentDifficulty = 5;
+
+const startButton = document.getElementById("startButton");
+const nextButton = document.getElementById("nextButton");
+const restartButton = document.getElementById("restartButton");
+
+const questionElement = document.getElementById("question");
+const statusElement = document.getElementById("status");
+const explanationElement = document.getElementById("explanation");
+
+const answer0 = document.getElementById("answer0");
+const answer1 = document.getElementById("answer1");
+
+const answersElement = document.getElementById("answers");
+
+const progressElement = document.getElementById("progress");
+const scoreElement = document.getElementById("score");
+
+
+/* --------------------------------
+   LOAD QUESTIONS
+-------------------------------- */
+
+fetch("questions.json", { cache: "no-store" })
+    .then(response => {
+        if (!response.ok) {
+            throw new Error("Could not load questions.json");
+        }
+
+        return response.json();
+    })
+    .then(data => {
+
+        allQuestions = data.questions || [];
+
+        console.log("Loaded questions:", allQuestions.length);
+
+    })
+    .catch(error => {
+
+        console.error(error);
+
+        questionElement.textContent =
+            "Error loading questions.";
+
+    });
+
+
+/* --------------------------------
+   RANDOMIZE ARRAY
+-------------------------------- */
+
+function shuffle(array) {
+
+    for (let i = array.length - 1; i > 0; i--) {
+
+        const j = Math.floor(Math.random() * (i + 1));
+
+        [array[i], array[j]] =
+            [array[j], array[i]];
+    }
+
+    return array;
 }
+
+
+/* --------------------------------
+   RANDOMIZE ANSWER BUTTON ORDER
+-------------------------------- */
+
+function randomizeAnswers(question) {
+
+    const randomized = {
+        ...question,
+        answers: [...question.answers]
+    };
+
+    /*
+       correct = 0 means the first
+       answer in the JSON is correct.
+
+       correct = 1 means the second
+       answer in the JSON is correct.
+
+       If the buttons are swapped,
+       the correct number must also swap.
+    */
+
+    if (Math.random() < 0.5) {
+
+        [
+            randomized.answers[0],
+            randomized.answers[1]
+        ] = [
+            randomized.answers[1],
+            randomized.answers[0]
+        ];
+
+        randomized.correct =
+            question.correct === 0 ? 1 : 0;
+    }
+
+    return randomized;
+}
+
+
+/* --------------------------------
+   GET NEXT QUESTION
+-------------------------------- */
+
+function getNextQuestion() {
+
+    let candidates =
+        allQuestions.filter(q =>
+            !gameQuestions.some(
+                used => used.question === q.question
+            )
+        );
+
+    if (candidates.length === 0) {
+        return null;
+    }
+
+
+    /*
+       After a correct answer:
+       same difficulty or harder.
+    */
+
+    if (currentQuestion &&
+        currentQuestion.wasCorrect === true) {
+
+        let harderOrSame =
+            candidates.filter(q =>
+                q.difficulty >= currentDifficulty
+            );
+
+        if (harderOrSame.length > 0) {
+
+            candidates = harderOrSame;
+
+        }
+
+    }
+
+
+    /*
+       After a wrong answer:
+       easier than current difficulty.
+    */
+
+    else if (currentQuestion &&
+             currentQuestion.wasCorrect === false) {
+
+        let easier =
+            candidates.filter(q =>
+                q.difficulty < currentDifficulty
+            );
+
+        if (easier.length > 0) {
+
+            candidates = easier;
+
+        }
+
+    }
+
+
+    /*
+       Pick the closest difficulty available.
+    */
+
+    candidates.sort((a, b) => {
+
+        return Math.abs(
+            a.difficulty - currentDifficulty
+        ) -
+        Math.abs(
+            b.difficulty - currentDifficulty
+        );
+
+    });
+
+
+    /*
+       Randomize among questions with
+       the same closest difficulty.
+    */
+
+    const closestDifference =
+        Math.abs(
+            candidates[0].difficulty -
+            currentDifficulty
+        );
+
+    const closest =
+        candidates.filter(q =>
+            Math.abs(
+                q.difficulty -
+                currentDifficulty
+            ) === closestDifference
+        );
+
+    return closest[
+        Math.floor(Math.random() * closest.length)
+    ];
+}
+
+
+/* --------------------------------
+   START GAME
+-------------------------------- */
+
+function startGame() {
+
+    if (allQuestions.length === 0) {
+
+        questionElement.textContent =
+            "Questions are still loading.";
+
+        return;
+    }
+
+    gameQuestions = [];
+
+    currentQuestion = null;
+
+    currentQuestionIndex = 0;
+
+    score = 0;
+
+    currentDifficulty = 5;
+
+    startButton.classList.add("hidden");
+
+    restartButton.classList.add("hidden");
+
+    nextButton.classList.add("hidden");
+
+    explanationElement.textContent = "";
+
+    scoreElement.textContent = "";
+
+    showNextQuestion();
+}
+
+
+/* --------------------------------
+   SHOW NEXT QUESTION
+-------------------------------- */
+
+function showNextQuestion() {
+
+    if (currentQuestionIndex >= questionsPerGame) {
+
+        endGame();
+
+        return;
+    }
+
+
+    const selected =
+        getNextQuestion();
+
+    if (!selected) {
+
+        endGame();
+
+        return;
+    }
+
+
+    currentQuestion =
+        randomizeAnswers(selected);
+
+    gameQuestions.push(currentQuestion);
+
+    currentQuestionIndex++;
+
+
+    /*
+       Difficulty becomes the difficulty
+       of the question just selected.
+    */
+
+    currentDifficulty =
+        currentQuestion.difficulty;
+
+
+    progressElement.textContent =
+        "Question " +
+        currentQuestionIndex +
+        " of " +
+        questionsPerGame;
+
+
+    questionElement.textContent =
+        currentQuestion.question;
+
+    statusElement.textContent =
+        "Get ready...";
+
+
+    explanationElement.textContent = "";
+
+    nextButton.classList.add("hidden");
+
+    answersElement.classList.add("hidden");
+
+
+    answer0.disabled = false;
+    answer1.disabled = false;
+
+
+    /*
+       Put the randomized answers
+       into the two buttons.
+    */
+
+    answer0.textContent =
+        currentQuestion.answers[0];
+
+    answer1.textContent =
+        currentQuestion.answers[1];
+
+
+    /*
+       Three-second preparation time.
+    */
+
+    setTimeout(() => {
+
+        if (!currentQuestion) {
+            return;
+        }
+
+        statusElement.textContent =
+            "Choose your answer!";
+
+        answersElement.classList.remove("hidden");
+
+
+    }, 3000);
+}
+
+
+/* --------------------------------
+   ANSWER BUTTONS
+-------------------------------- */
+
+answer0.addEventListener(
+    "click",
+    () => checkAnswer(0)
+);
+
+answer1.addEventListener(
+    "click",
+    () => checkAnswer(1)
+);
+
+
+/* --------------------------------
+   CHECK ANSWER
+-------------------------------- */
+
+function checkAnswer(selectedAnswer) {
+
+    answer0.disabled = true;
+    answer1.disabled = true;
+
+
+    const correct =
+        selectedAnswer === currentQuestion.correct;
+
+
+    currentQuestion.wasCorrect = correct;
+
+
+    if (correct) {
+
+        score++;
+
+        statusElement.textContent =
+            "CORRECT!";
+
+        explanationElement.textContent =
+            currentQuestion.correctExplanation;
+
+    }
+    else {
+
+        statusElement.textContent =
+            "WRONG!";
+
+        explanationElement.textContent =
+            currentQuestion.wrongExplanation;
+
+    }
+
+
+    scoreElement.textContent =
+        "Score: " +
+        score +
+        " / " +
+        currentQuestionIndex;
+
+
+    nextButton.classList.remove("hidden");
+}
+
+
+/* --------------------------------
+   NEXT BUTTON
+-------------------------------- */
+
+nextButton.addEventListener(
+    "click",
+    () => {
+
+        showNextQuestion();
+
+    }
+);
+
+
+/* --------------------------------
+   END GAME
+-------------------------------- */
+
+function endGame() {
+
+    answersElement.classList.add("hidden");
+
+    nextButton.classList.add("hidden");
+
+    questionElement.textContent =
+        "Challenge Complete!";
+
+    progressElement.textContent = "";
+
+    statusElement.textContent =
+        "Final Score";
+
+    explanationElement.textContent = "";
+
+    scoreElement.textContent =
+        score +
+        " / " +
+        questionsPerGame;
+
+    restartButton.classList.remove("hidden");
+}
+
+
+/* --------------------------------
+   PLAY AGAIN
+-------------------------------- */
+
+restartButton.addEventListener(
+    "click",
+    () => {
+
+        startGame();
+
+    }
+);
+
+
+/* --------------------------------
+   START BUTTON
+-------------------------------- */
+
+startButton.addEventListener(
+    "click",
+    () => {
+
+        startGame();
+
+    }
+);
+
+</script>
+
+</body>
+</html>
