@@ -12,7 +12,7 @@
       "correct": 0,
       "correctExplanation": "The normal MarkOfChaos adventuring party has 6 adventurers.",
       "wrongExplanation": "The normal party has 6 adventurers.",
-      "difficulty": 10
+      "difficulty": 5
     },
     {
       "question": "Who is the Party Leader?",
@@ -23,7 +23,7 @@
       "correct": 0,
       "correctExplanation": "The Party Leader is assigned before entering the dungeon.",
       "wrongExplanation": "The Party Leader is assigned before entering the dungeon. It is not automatically the most experienced player.",
-      "difficulty": 20
+      "difficulty": 5
     },
     {
       "question": "Who is second-in-command?",
@@ -34,7 +34,7 @@
       "correct": 0,
       "correctExplanation": "The Knight is the second-in-command.",
       "wrongExplanation": "The Knight is the second-in-command, not the Rogue.",
-      "difficulty": 15
+      "difficulty": 5
     },
     {
       "question": "Who normally fills the Scout role?",
@@ -45,7 +45,7 @@
       "correct": 0,
       "correctExplanation": "The Rogue normally fills the Scout role.",
       "wrongExplanation": "The Rogue normally fills the Scout role.",
-      "difficulty": 25
+      "difficulty": 5
     },
     {
       "question": "Who monitors the party's health bars?",
@@ -56,7 +56,7 @@
       "correct": 0,
       "correctExplanation": "The Healer watches the party's health bars.",
       "wrongExplanation": "The Healer monitors the party's health bars.",
-      "difficulty": 20
+      "difficulty": 1
     },
     {
       "question": "Who should monitor the party's MP?",
@@ -67,7 +67,7 @@
       "correct": 0,
       "correctExplanation": "The Mage monitors the party's MP.",
       "wrongExplanation": "The Mage is responsible for monitoring the party's MP.",
-      "difficulty": 25
+      "difficulty": 2
     },
     {
       "question": "Who does the most damage?",
@@ -78,7 +78,7 @@
       "correct": 0,
       "correctExplanation": "The Rear Guard member draws the monster all the way back so the party can attack it safely.",
       "wrongExplanation": "The Rear Guard member draws the monster back so the rest of the party can attack it safely.",
-      "difficulty": 70
+      "difficulty": 5
     },
     {
       "question": "Who is the Dark Magic Specialist?",
@@ -89,7 +89,7 @@
       "correct": 0,
       "correctExplanation": "The Sorcerer is the Dark Magic Specialist.",
       "wrongExplanation": "The Sorcerer is the Dark Magic Specialist.",
-      "difficulty": 20
+      "difficulty": 6
     },
     {
       "question": "Who controls movement out of combat?",
@@ -100,7 +100,7 @@
       "correct": 0,
       "correctExplanation": "The Scout position controls movement when the party is out of combat.",
       "wrongExplanation": "The Scout position controls movement out of combat.",
-      "difficulty": 35
+      "difficulty": 8
     },
     {
       "question": "Who controls movement during combat?",
@@ -111,7 +111,7 @@
       "correct": 0,
       "correctExplanation": "The Center position controls movement during combat.",
       "wrongExplanation": "During combat, the Center position controls movement.",
-      "difficulty": 40
+      "difficulty": 8
     },
     {
       "question": "Can any party member be in the Center?",
@@ -122,7 +122,7 @@
       "correct": 0,
       "correctExplanation": "The Center is a position, not a fixed class. Any party member can be in the Center.",
       "wrongExplanation": "The Center is a position, not a fixed class. Any party member can fill it.",
-      "difficulty": 45
+      "difficulty": 2
     },
     {
       "question": "Should the party stay together in a dungeon?",
@@ -133,7 +133,7 @@
       "correct": 0,
       "correctExplanation": "The party stays together so members can protect and support each other.",
       "wrongExplanation": "The party should stay together rather than exploring alone.",
-      "difficulty": 15
+      "difficulty": 1
     },
     {
       "question": "Should one player rush ahead alone?",
@@ -144,18 +144,18 @@
       "correct": 0,
       "correctExplanation": "Players should not rush ahead alone because it can separate them from the party.",
       "wrongExplanation": "Players should not rush ahead alone.",
-      "difficulty": 15
+      "difficulty": 1
     },
     {
       "question": "What should you do if you become separated?",
       "answers": [
         "Stop and regroup",
-        "Keep going alone"
+        "Keep going they will catch up"
       ],
       "correct": 0,
       "correctExplanation": "Stop and regroup with the party.",
       "wrongExplanation": "You should stop and regroup instead of continuing alone.",
-      "difficulty": 25
+      "difficulty": 3
     },
     {
       "question": "Who watches for danger ahead?",
@@ -166,7 +166,7 @@
       "correct": 0,
       "correctExplanation": "The Scout watches ahead for danger.",
       "wrongExplanation": "The Scout is responsible for watching ahead for danger.",
-      "difficulty": 20
+      "difficulty": 1
     },
     {
       "question": "What should the Scout do before moving the party forward?",
@@ -177,7 +177,7 @@
       "correct": 0,
       "correctExplanation": "The Scout checks for danger before moving the party forward.",
       "wrongExplanation": "The Scout should check for danger before moving the party forward.",
-      "difficulty": 30
+      "difficulty": 3
     },
     {
       "question": "What do you do when the person you are watching gets attacked?",
@@ -188,7 +188,7 @@
       "correct": 0,
       "correctExplanation": "You protect the person you are watching. The person watching you will take your target.",
       "wrongExplanation": "You should protect the person you are watching instead of finishing your own monster.",
-      "difficulty": 55
+      "difficulty": 9
     },
     {
       "question": "What do you do when the Vanguard member gets attacked?",
@@ -199,7 +199,7 @@
       "correct": 0,
       "correctExplanation": "Protect the Vanguard member and attack the enemy attacking them.",
       "wrongExplanation": "When the Vanguard is attacked, protect them and attack their attacker.",
-      "difficulty": 60
+      "difficulty": 4
     },
     {
       "question": "Should you watch the person assigned to you?",
@@ -210,7 +210,7 @@
       "correct": 0,
       "correctExplanation": "You should always watch the party member assigned to you.",
       "wrongExplanation": "You should watch your assigned party member at all times, not only when they are dying.",
-      "difficulty": 25
+      "difficulty": 1
     },
     {
       "question": "Why do party members watch each other?",
@@ -221,29 +221,29 @@
       "correct": 0,
       "correctExplanation": "Party members watch each other so they can protect one another.",
       "wrongExplanation": "The purpose is to protect each other, not to compete for kills.",
-      "difficulty": 30
+      "difficulty": 7
     },
     {
       "question": "What should you do if your assigned person is in danger?",
       "answers": [
         "Assist them",
-        "Ignore them"
+        "Your like comes first"
       ],
       "correct": 0,
       "correctExplanation": "Assist the party member you are responsible for watching.",
       "wrongExplanation": "You should assist your assigned party member when they are in danger.",
-      "difficulty": 35
+      "difficulty": 8
     },
     {
       "question": "When is concentrated fire performed?",
       "answers": [
         "When fighting in pairs",
-        "When everyone attacks a different target"
+        "When fighting in a group"
       ],
       "correct": 0,
       "correctExplanation": "Concentrated fire is used when fighting in pairs.",
       "wrongExplanation": "Concentrated fire is performed when party members are fighting in pairs.",
-      "difficulty": 40
+      "difficulty": 7
     },
     {
       "question": "When fighting in pairs, who should you attack?",
@@ -254,18 +254,18 @@
       "correct": 0,
       "correctExplanation": "Both partners attack the same target.",
       "wrongExplanation": "Partners should attack the same target.",
-      "difficulty": 30
+      "difficulty": 9
     },
     {
       "question": "Why use concentrated fire?",
       "answers": [
         "To defeat targets faster",
-        "To spread damage around"
+        "So everyone get EXP"
       ],
       "correct": 0,
       "correctExplanation": "Concentrated fire defeats targets faster by combining damage.",
       "wrongExplanation": "The purpose is to combine damage and defeat targets faster.",
-      "difficulty": 45
+      "difficulty": 9
     },
     {
       "question": "Should paired players attack separate targets?",
@@ -274,42 +274,42 @@
         "Yes"
       ],
       "correct": 0,
-      "correctExplanation": "Paired players should attack the same target.",
+      "correctExplanation": "Yes if no one is being attacked.",
       "wrongExplanation": "Paired players should concentrate their attacks on the same target.",
-      "difficulty": 30
+      "difficulty": 7
     },
     {
       "question": "What happens when everyone concentrates on one target?",
       "answers": [
         "The target goes down faster",
-        "The target becomes stronger"
+        "You get less EXP"
       ],
       "correct": 0,
       "correctExplanation": "Concentrating attacks causes the target to go down faster.",
       "wrongExplanation": "Concentrated fire makes the target go down faster.",
-      "difficulty": 35
+      "difficulty": 9
     },
     {
-      "question": "Who can decide to use the Wagon Wheel formation?",
+      "question": "Combat, Healer can decide to call the Wagon Wheel formation?",
       "answers": [
-        "Healer",
-        "Party Leader"
+        "When someones health is low",
+        "Any time, it is there write"
       ],
       "correct": 0,
-      "correctExplanation": "The Healer can decide when to use the Wagon Wheel formation.",
-      "wrongExplanation": "The Healer decides when to use the Wagon Wheel formation.",
-      "difficulty": 60
+      "correctExplanation": "The Healer can if they need to stop and heal.",
+      "wrongExplanation": "The Healer decides only when there is a need",
+      "difficulty": 7
     },
     {
       "question": "What is the Wagon Wheel formation used for?",
       "answers": [
         "Protecting the party from attacks",
-        "Making everyone fight alone"
+        "When moving down coradors"
       ],
       "correct": 0,
       "correctExplanation": "The Wagon Wheel creates a protective formation around the party.",
       "wrongExplanation": "The Wagon Wheel is used to protect the party from attacks.",
-      "difficulty": 45
+      "difficulty": 3
     },
     {
       "question": "In a Wagon Wheel, should party members watch their assigned person?",
@@ -320,29 +320,29 @@
       "correct": 0,
       "correctExplanation": "Each party member watches their assigned person.",
       "wrongExplanation": "Party members must watch their assigned person.",
-      "difficulty": 50
+      "difficulty": 1
     },
     {
       "question": "What does the Wagon Wheel create around the party?",
       "answers": [
         "A protective circle",
-        "A straight line"
+        "A firing line"
       ],
       "correct": 0,
       "correctExplanation": "The Wagon Wheel creates a protective circle around the party.",
       "wrongExplanation": "The formation creates a protective circle, not a straight line.",
-      "difficulty": 35
+      "difficulty": 4
     },
     {
       "question": "Should everyone in the Wagon Wheel watch for attacks?",
       "answers": [
         "Yes",
-        "No, only the Titan"
+        "No"
       ],
-      "correct": 0,
-      "correctExplanation": "Everyone watches for attacks and protects their assigned person.",
+      "correct": 1,
+      "correctExplanation": "Healer and scout have different jobs",
       "wrongExplanation": "Everyone participates in watching for attacks, not only the Titan.",
-      "difficulty": 50
+      "difficulty": 5
     },
     {
       "question": "Who can decide to retreat when someone goes down?",
@@ -353,7 +353,7 @@
       "correct": 0,
       "correctExplanation": "The Healer decides whether to resurrect or retreat.",
       "wrongExplanation": "The Healer makes the decision to resurrect or retreat.",
-      "difficulty": 65
+      "difficulty": 4
     },
     {
       "question": "What does the Healer decide when someone is down?",
@@ -364,7 +364,7 @@
       "correct": 0,
       "correctExplanation": "The Healer decides whether to resurrect the fallen member or retreat to save the party.",
       "wrongExplanation": "The Healer decides between resurrection and retreat to protect the remaining party.",
-      "difficulty": 70
+      "difficulty": 7
     },
     {
       "question": "If retreat is called, what do you do?",
@@ -375,7 +375,7 @@
       "correct": 0,
       "correctExplanation": "Everyone forms the retreat formation and pulls back together.",
       "wrongExplanation": "When retreat is called, form the retreat formation and pull back together.",
-      "difficulty": 55
+      "difficulty": 5
     },
     {
       "question": "Should you stay and fight alone after retreat is called?",
@@ -386,7 +386,7 @@
       "correct": 0,
       "correctExplanation": "Once retreat is called, everyone pulls back together.",
       "wrongExplanation": "You should not stay and fight alone after retreat is called.",
-      "difficulty": 30
+      "difficulty": 5
     },
     {
       "question": "Why might the Healer call a retreat?",
@@ -397,7 +397,7 @@
       "correct": 0,
       "correctExplanation": "The Healer may call a retreat to save the remaining party.",
       "wrongExplanation": "A retreat is called to save the remaining party, not to get more kills.",
-      "difficulty": 50
+      "difficulty": 5
     },
     {
       "question": "If a party member is down, should everyone keep fighting?",
@@ -408,7 +408,7 @@
       "correct": 0,
       "correctExplanation": "The Healer decides whether to resurrect the fallen member or retreat.",
       "wrongExplanation": "The party should follow the Healer's decision to resurrect or retreat.",
-      "difficulty": 70
+      "difficulty": 5
     },
     {
       "question": "When retreating, should the party stay together?",
@@ -419,7 +419,7 @@
       "correct": 0,
       "correctExplanation": "The party retreats together as a group.",
       "wrongExplanation": "Everyone should retreat together rather than running separately.",
-      "difficulty": 35
+      "difficulty": 5
     },
     {
       "question": "Should you pull extra mobs toward the party?",
@@ -430,7 +430,7 @@
       "correct": 0,
       "correctExplanation": "Do not pull extra mobs toward the party.",
       "wrongExplanation": "Pulling extra mobs toward the party creates unnecessary danger.",
-      "difficulty": 40
+      "difficulty": 4
     },
     {
       "question": "Should you attack a new target without reason?",
@@ -441,7 +441,7 @@
       "correct": 0,
       "correctExplanation": "Stay with the party's target unless there is a reason to change.",
       "wrongExplanation": "Do not attack a new target without a reason.",
-      "difficulty": 45
+      "difficulty": 4
     },
     {
       "question": "What should you do when the party changes targets?",
@@ -452,7 +452,7 @@
       "correct": 0,
       "correctExplanation": "Follow the party's concentrated fire onto the new target.",
       "wrongExplanation": "You should follow the party's concentrated fire rather than continuing on the old target.",
-      "difficulty": 55
+      "difficulty": 5
     },
     {
       "question": "Should you leave the formation to chase a mob?",
@@ -463,7 +463,7 @@
       "correct": 0,
       "correctExplanation": "Stay in formation and do not chase mobs away from the party.",
       "wrongExplanation": "Do not leave the formation to chase a mob.",
-      "difficulty": 50
+      "difficulty": 5
     },
     {
       "question": "What should you do if you see danger?",
@@ -474,7 +474,7 @@
       "correct": 0,
       "correctExplanation": "Warn the party so everyone knows about the danger.",
       "wrongExplanation": "You should warn the party when you see danger.",
-      "difficulty": 30
+      "difficulty": 3
     },
     {
       "question": "Should party members communicate when danger appears?",
@@ -485,7 +485,7 @@
       "correct": 0,
       "correctExplanation": "Communication helps the party react to danger together.",
       "wrongExplanation": "Party members should communicate when danger appears.",
-      "difficulty": 35
+      "difficulty": 3
     },
     {
       "question": "Should you run ahead of the Scout?",
@@ -496,7 +496,7 @@
       "correct": 0,
       "correctExplanation": "The Scout checks ahead for danger, so you should not run ahead.",
       "wrongExplanation": "Do not run ahead of the Scout.",
-      "difficulty": 45
+      "difficulty": 4
     },
     {
       "question": "Should everyone attack the same target when concentrated fire is called?",
@@ -507,7 +507,7 @@
       "correct": 0,
       "correctExplanation": "Everyone should concentrate on the same target.",
       "wrongExplanation": "When concentrated fire is called, everyone attacks the same target.",
-      "difficulty": 40
+      "difficulty": 4
     },
     {
       "question": "What should you do if your target dies?",
@@ -518,7 +518,7 @@
       "correct": 0,
       "correctExplanation": "Assist the party by moving to its next target.",
       "wrongExplanation": "Do not run off looking for another enemy. Assist the party's next target.",
-      "difficulty": 55
+      "difficulty": 5
     },
     {
       "question": "Should you chase an enemy away from the party?",
@@ -529,7 +529,7 @@
       "correct": 0,
       "correctExplanation": "Stay with the party and do not chase enemies away.",
       "wrongExplanation": "Do not chase an enemy away from the party.",
-      "difficulty": 45
+      "difficulty": 4
     },
     {
       "question": "What is more important than getting the killing blow?",
@@ -540,7 +540,7 @@
       "correct": 0,
       "correctExplanation": "Keeping the party safe is more important than getting the killing blow.",
       "wrongExplanation": "Keeping the party safe is more important than getting the most kills.",
-      "difficulty": 50
+      "difficulty": 5
     },
     {
       "question": "Should you protect your assigned party member?",
@@ -551,7 +551,7 @@
       "correct": 0,
       "correctExplanation": "Protecting your assigned party member is one of the core party rules.",
       "wrongExplanation": "You should protect your assigned party member without waiting for them to ask.",
-      "difficulty": 30
+      "difficulty": 3
     }
   ]
 }
